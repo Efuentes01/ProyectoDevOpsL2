@@ -13,7 +13,7 @@ app.use(json()); // Middleware para JSON
 app.use('/api/playlists', playlistRoutes);
 app.use('/api/createplaylist', playlistRoutes);
 app.use('/api/deleteplaylist', playlistRoutes);
-
+app.use('/api/updateplaylist', playlistRoutes);
 
 export default app;
 
